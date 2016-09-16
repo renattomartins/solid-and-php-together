@@ -1,6 +1,6 @@
 <?php
 
-namespace SamuelOloruntoba\SOLID\SRP\Violacao;
+namespace SamuelOloruntoba\SOLID\SRP\Violation;
 
 class Square
 {

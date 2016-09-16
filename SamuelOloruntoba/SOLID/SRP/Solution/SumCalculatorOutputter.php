@@ -1,6 +1,6 @@
 <?php
 
-namespace SamuelOloruntoba\SOLID\SRP\Solucao;
+namespace SamuelOloruntoba\SOLID\SRP\Solution;
 
 class SumCalculatorOutputter
 {
