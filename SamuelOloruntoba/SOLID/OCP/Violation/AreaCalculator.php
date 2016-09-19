@@ -17,10 +17,11 @@ class AreaCalculator
     // Open-closed principle.
     public function sum()
     {
+        $area = [];
         foreach ($this->shapes as $shape) {
-            if (is_a($shape, 'Square')) {
+            if ($shape instanceof Square) {
                 $area[] = pow($shape->length, 2);
-            } elseif (is_a($shape, 'Circle')) {
+            } elseif ($shape instanceof Circle) {
                 $area[] = pi() * pow($shape->radius, 2);
             }
         }
