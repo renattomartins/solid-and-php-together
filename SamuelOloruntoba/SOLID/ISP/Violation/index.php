@@ -5,6 +5,7 @@ namespace SamuelOloruntoba\SOLID\ISP\Violation;
 require 'ShapeInterface.php';
 require 'Circle.php';
 require 'Square.php';
+require 'Cuboid.php';
 require 'AreaCalculator.php';
 require 'VolumeCalculator.php';
 require 'SumCalculatorOutputter.php';
@@ -16,7 +17,7 @@ $shapes = array(
 );
 
 $solidShapes = array(
-    new Circle(2), // Circle not a solid shape, but it is not important here :)
+    new Cuboid(2),
 );
 
 $areas = new AreaCalculator($shapes);

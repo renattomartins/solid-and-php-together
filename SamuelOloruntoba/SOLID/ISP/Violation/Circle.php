@@ -15,4 +15,10 @@ class Circle implements ShapeInterface
     {
         return pi() * pow($this->radius, 2);
     }
+
+    // ISP Violation
+    public function volume()
+    {
+        // Do nothing!
+    }
 }

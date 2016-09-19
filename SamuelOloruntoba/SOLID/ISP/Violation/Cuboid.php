@@ -2,7 +2,7 @@
 
 namespace SamuelOloruntoba\SOLID\ISP\Violation;
 
-class Square implements ShapeInterface
+class Cuboid implements ShapeInterface
 {
     public $length;
 
@@ -16,9 +16,8 @@ class Square implements ShapeInterface
         return pow($this->length, 2);
     }
 
-    // ISP Violation
     public function volume()
     {
-        // Do nothing!
+        return pow($this->length, 3);
     }
 }
