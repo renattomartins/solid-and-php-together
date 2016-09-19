@@ -1,4 +1,5 @@
 <?php
+
 namespace SamuelOloruntoba\SOLID\SRP\Violation;
 
 require_once 'Circle.php';

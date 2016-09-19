@@ -13,7 +13,12 @@ class SumCalculatorOutputter
 
     public function html()
     {
-        // code...
+        return implode('', array(
+            '<h1>',
+                'Sum of the areas of provided shapes: ',
+                $this->areas->sum(),
+            '</h1>',
+        ));
     }
 
     public function json()

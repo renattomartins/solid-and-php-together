@@ -1,4 +1,5 @@
 <?php
+
 namespace SamuelOloruntoba\SOLID\SRP\Solution;
 
 require_once 'Circle.php';
