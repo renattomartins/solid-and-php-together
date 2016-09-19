@@ -2,7 +2,7 @@
 
 namespace SamuelOloruntoba\SOLID\OCP\Solution;
 
-class Circle
+class Circle implements ShapeInterface
 {
     public $radius;
 

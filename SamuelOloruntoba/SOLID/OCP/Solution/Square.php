@@ -2,7 +2,7 @@
 
 namespace SamuelOloruntoba\SOLID\OCP\Solution;
 
-class Square
+class Square implements ShapeInterface
 {
     public $length;
 

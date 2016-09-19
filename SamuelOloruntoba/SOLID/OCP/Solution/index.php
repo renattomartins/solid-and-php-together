@@ -1,5 +1,13 @@
 <?php
 
+namespace SamuelOloruntoba\SOLID\OCP\Solution;
+
+require 'ShapeInterface.php';
+require 'Circle.php';
+require 'Square.php';
+require 'AreaCalculator.php';
+require 'SumCalculatorOutputter.php';
+
 $shapes = array(
     new Circle(2),
     new Square(5),

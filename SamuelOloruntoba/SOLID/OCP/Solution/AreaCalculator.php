@@ -13,8 +13,14 @@ class AreaCalculator
 
     public function sum()
     {
+        $area = [];
         foreach ($this->shapes as $shape) {
-            $area[] = $shape->area;
+            if ($shape instanceof ShapeInterface) {
+                $area[] = $shape->area();
+                continue;
+            }
+
+            throw new AreaCalculatorInvalidShapeException();
         }
 
         return array_sum($area);
