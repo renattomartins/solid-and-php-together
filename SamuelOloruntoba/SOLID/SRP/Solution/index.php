@@ -1,4 +1,10 @@
 <?php
+namespace SamuelOloruntoba\SOLID\SRP\Solution;
+
+require_once 'Circle.php';
+require_once 'Square.php';
+require_once 'AreaCalculator.php';
+require_once 'SumCalculatorOutputter.php';
 
 $shapes = array(
     new Circle(2),

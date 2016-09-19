@@ -1,4 +1,9 @@
 <?php
+namespace SamuelOloruntoba\SOLID\SRP\Violation;
+
+require_once 'Circle.php';
+require_once 'Square.php';
+require_once 'AreaCalculator.php';
 
 $shapes = array(
     new Circle(2),
